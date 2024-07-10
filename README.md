@@ -11,6 +11,15 @@ This Jupyter notebook is designed to perform the following tasks:
 
 Remember that you only use the first 800 samples, so it may be necessary to slice other arrays accordingly.
 
+## Table of Contents
+
+- [Description](#description)
+- [Instructions](#instructions)
+- [Data Handling](#data-handling)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+- [License](#license)
+
 ## Instructions
 
 1. **$k$-means Clustering**:
@@ -54,13 +63,15 @@ To run this notebook, follow these steps:
 3. Open the notebook using Jupyter:
 
    ```bash
-   jupyter lab circadian_rhythm_using _k_means
+   jupyter notebook circadian_rhythm_using _k_means.ipynb
    ```
 
 4. Execute the cells in the notebook sequentially to perform the $k$-means clustering, plot the colormap, and plot the mean time series for each cluster.
 
-## Notes
+## License
 
-- Ensure that your data is properly pre-processed and loaded into the notebook before running the clustering algorithm.
-- Modify the plotting parameters as necessary to enhance the visualization of your results.
-- This shows that there are upto 3 regions where the fluorescence is periodic and works best (using fast fourier transform and k-means clustering)
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Feel free to edit or expand this `README.md` file as needed. If there are specific details or additional instructions you'd like to include, let me know!
